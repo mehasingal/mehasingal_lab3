@@ -5,15 +5,10 @@
         <meta charset="utf-8">
         <title>Earthquake List</title>
         <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no">
-
-        <!-- Including the Mapbox GL CSS file -->
         <link href="https://api.mapbox.com/mapbox-gl-js/v2.5.0/mapbox-gl.css" rel="stylesheet">
-
-        <!-- Including the Mapbox GL JS file -->
         <script src="https://api.mapbox.com/mapbox-gl-js/v2.5.0/mapbox-gl.js"></script>
 
         <style>
-            /* CSS styles for the layout and components */
             body {
                 margin: 0;
                 padding: 0;
@@ -78,11 +73,8 @@
 
         </main>
         <script>
-            // Define the Mapbox access token
-            mapboxgl.accessToken =
-                'pk.eyJ1IjoiamFrb2J6aGFvIiwiYSI6ImNpcms2YWsyMzAwMmtmbG5icTFxZ3ZkdncifQ.P9MBej1xacybKcDN_jehvw';
+            mapboxgl.accessToken = 'pk.eyJ1IjoibXNpbmdhbCIsImEiOiJjbTZzaXY4eTIwOWRtMmpwd2ZxcjR0azJvIn0.LBlt9ukhVIG6_68iFfThfQ';
 
-            // Create the map object
             let map = new mapboxgl.Map({
                 container: 'map', // container ID
                 style: 'mapbox://styles/mapbox/satellite-v9', // style URL
